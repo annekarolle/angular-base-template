@@ -1,0 +1,36 @@
+footer {
+  background-color: var(--brand-color1);
+  padding: 0.5em;
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  gap: 0.5em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+}
+
+
+a:hover {
+  transform: scale(1.1);
+}
+
+
+span {
+  font-size: small;
+}

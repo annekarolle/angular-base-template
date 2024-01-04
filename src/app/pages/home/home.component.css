@@ -1,0 +1,12 @@
+
+/* Desenha a boca do alien */
+.alien__mouth {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  width: 60px;
+  height: 30px;
+  border-radius: 0 0 50% 50%;
+  border: 5px solid black;
+  transform: translateX(-50%);
+}
