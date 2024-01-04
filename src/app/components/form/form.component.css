@@ -1,0 +1,34 @@
+label{
+  color: white;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+input{
+  padding: 0.5em;
+  width: 250px;
+}
+
+button{
+  background-color: var(--brand-color2);
+  border: none;
+  padding: 0.5em;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+button:hover{
+  transform: scale(1.1);
+}

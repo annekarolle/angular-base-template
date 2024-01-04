@@ -1,0 +1,21 @@
+.imagens{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 2em;
+}
+
+.container-imagem{
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+img:hover{
+  filter: hue-rotate(90deg);
+
+}
+
+
+
