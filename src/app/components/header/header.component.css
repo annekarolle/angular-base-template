@@ -1,0 +1,43 @@
+
+header {
+  width: 100%;
+  background-color: var(--brand-color1);
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  gap: 2em;
+  justify-content: flex-end;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+a:hover {
+  transform: scale(1.1);
+}

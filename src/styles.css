@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --brand-color1: #3a91d4;
+  --brand-color2: #12cfc9;
+  --brand-color3: #0095ff;
+  --brand-color4: #14fef6;
+  --hover: #14fef6;
+  --hover-grey: #5c5b5b;
+  --white: #ffffff;
+  --black: #000000;
+  --grey-bg: #1c1c1c;
+  --bg: #ffffff;
+  --grey-light: #ddd8d8;
+  --grey-dark: #363535;
+  --focus: #ddd8d830;
+  --transparence-color2: #4caf50d4;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg);
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+app-root,
+app-home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
