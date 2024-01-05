@@ -1,27 +1,30 @@
-# Agenda
+# Angular Base Template - 17 **_ version 17.0.9._**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+Este é um projeto desenvolvido em Angular na versão 17, seguindo os padrões mais recentes e melhores práticas recomendadas pela equipe de desenvolvimento do Angular.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Documentação
+A documentação oficial do Angular 17 pode ser encontrada <a href="https://angular.dev/">aqui</a>. 
+Recomendo fortemente a leitura desta documentação para entender melhor a estrutura, os recursos e as diretrizes de desenvolvimento do novo Angular.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Requisitos do Projeto
+Certifique-se de ter os seguintes requisitos instalados antes de começar:
+ - Node.js
+ - npm
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Como Iniciar o Projeto
+Instale as Dependências:
+Execute o seguinte comando no terminal para instalar todas as dependências necessárias:
+ ```
+npm install
+ ```
+ Inicie o Servidor de Desenvolvimento:
+Utilize o seguinte comando para iniciar o servidor de desenvolvimento:
+ ```
+ng serve
+ ```
+<p>O aplicativo estará disponível em http://localhost:4200/. Abra este URL no seu navegador para visualizar o projeto.</p>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
