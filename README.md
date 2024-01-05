@@ -1,4 +1,4 @@
-# Angular Base Template - 17 **_ version 17.0.9._**
+# Angular Base Template - **_version 17.0.9._**
 
 Este é um projeto desenvolvido em Angular na versão 17, seguindo os padrões mais recentes e melhores práticas recomendadas pela equipe de desenvolvimento do Angular.
 
