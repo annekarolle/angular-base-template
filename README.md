@@ -28,3 +28,92 @@ ng serve
 <p>O aplicativo estará disponível em http://localhost:4200/. Abra este URL no seu navegador para visualizar o projeto.</p>
 
 
+## NgFor
+
+- Antes
+```
+<div *ngFor="let item of lista">
+    <span>{{item.titulo}}</span>
+</div>
+```
+
+- Agora
+  - Importar o NgFor no componente, nesse modelo está sendo usando o template 
+
+```
+
+@Component({
+  selector: 'app-component',
+  standalone: true,
+  imports: [NgFor],
+  template: `
+
+
+    <div>
+        @for(item of lista; track item)
+        {
+            <span>{{item.titulo}}</span>
+        }
+    </div>
+    
+  `,
+  styleUrl: './component.component.css'
+})
+
+
+export class Component {
+  lista = []    
+}
+ 
+
+```
+
+
+## NgIf
+
+- Antes
+```
+<ng-container *ngIf="titulo === 'Empresa A'; else empresaBTemplate">
+    <span>{{titulo}}</span>
+</ng-container>
+
+<ng-template #empresaBTemplate>
+    <span>{{titulo}}</span>
+    <p>Informações exclusivas da Empresa B</p>
+</ng-template>
+```
+
+- Agora
+  - Importar o NgFor no componente, nesse modelo está sendo usando o template 
+
+```
+
+@Component({
+  selector: 'app-component',
+  standalone: true,
+  imports: [NgIf],
+  template: `
+
+
+    <div>
+        @if("titulo === 'Empresa A')
+        {
+            <span>{{titulo}}</span>
+        }
+        @else{
+            <span>{{titulo}}</span>
+            <p>Informações exclusivas da Empresa B</p>
+        }
+    </div>
+    
+  `,
+  styleUrl: './component.component.css'
+})
+
+
+export class Component {
+  titulo:string = ""  ;  
+}
+ 
+
+```
